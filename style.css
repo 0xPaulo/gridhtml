@@ -1,0 +1,30 @@
+html{
+    background-color: #1111;
+}
+body {
+font-family: Arial;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    margin-top: 0px;
+}
+.item {
+    background-color: #1212;
+    border: 2px solid #001;
+    padding: 20px;
+    border-radius: 10px;
+}
+.botao{
+    background-color: rgb(73, 18, 100);
+    padding: 10px 25px;
+    border-radius: 6px;
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
