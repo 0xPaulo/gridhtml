@@ -1,13 +1,56 @@
-html{
-    background-color: rgba(0, 0, 0, 0.644);
+html {
+  background-color: rgba(0, 0, 0, 0.644);
 }
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.titulo{
+    grid-column: 1 / -1;
+}
+
+.info {
+    display: grid;
+    align-self: start;
+    gap: 10px;
+    place-items: start;
+}
+
+/* Estilos gerais */
 body {
-font-family: Arial;
+  margin: 40px 150px;
+  font-family: Arial;
 }
-.botao{
-    background-color: rgb(73, 18, 100);
-    padding: 10px 25px;
-    border-radius: 6px;
-    color: rgb(247, 247, 247);
-    text-decoration: none;
+h1,
+p {
+  margin: 0px;
+}
+h1 {
+  font-size: 48px;
+  line-height: 1;
+}
+p,
+span {
+  font-size: 20px;
+}
+img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+.botao {
+  background-color: #a8f;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #103;
+  text-decoration: none;
+
+}
+
+.preco {
+  background-color: #0000004b;
+  padding: 5px 10px;
+  border-radius: 4px;
+
 }
